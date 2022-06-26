@@ -47,7 +47,7 @@ To get the information line by line:
 
 *String line = in.readLine();*
 
-### Obtaining the location of the word in line
+### Obtaining the location of the word in line 	:smirk_cat:
 
 The indexOf() method returns the position of the first occurrence of specified character(s) in a string.
 Search a string for the first occurrence of "planet":
