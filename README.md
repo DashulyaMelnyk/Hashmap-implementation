@@ -47,6 +47,16 @@ To get the information line by line:
 
 *String line = in.readLine();*
 
+### Obtaining the location of the word in line
+
+The indexOf() method returns the position of the first occurrence of specified character(s) in a string.
+Search a string for the first occurrence of "planet":
+
+*String myStr = "Hello planet earth, you are a great planet.";
+
+System.out.println(myStr.indexOf("planet"));*
+
+**Result:** 6
 
 ## Files processed by the program
 
