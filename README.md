@@ -40,48 +40,39 @@ n = m * α
 ### Reading a file with extention .txt 	:speech_balloon:
 
 For reading from file was used the object of class BufferReader. The example of usage:
-
-*BufferedReader in = new BufferedReader(new FileReader("file.txt"));*
-
+```bash
+BufferedReader in = new BufferedReader(new FileReader("file.txt"));
+```
 To get the information line by line:
-
-*String line = in.readLine();*
-
+```bash
+String line = in.readLine();
+```
 ### Obtaining the location of the word in line 	:smirk_cat:
 
 The indexOf() method returns the position of the first occurrence of specified character(s) in a string.
 Search a string for the first occurrence of "planet":
-
-*String myStr = "Hello planet earth, you are a great planet.";
-
-System.out.println(myStr.indexOf("planet"));*
-
+```bash
+String myStr = "Hello planet earth, you are a great planet.";  
+System.out.println(myStr.indexOf("planet"));
+```
 **Result:** 6
 
 ## Files processed by the program
 
 The program processes files of txt.extention. File example:
 
-I hate (java) hate hate
-
-it is really good
-
-java hate me
+I hate (java) hate hate  
+it is really good  
+java hate me  
 
 ## Result example:
-
-me : [(3:11)]
-
-i : [(1:1)]
-
-good : [(2:14)]
-
-is : [(2:4)]
-
-it : [(2:1)]
-
-really : [(2:7)]
-
-java : [(1:8), (3:1)]
-
-hate : [(1:3), (1:13), (1:18), (3:6)]
+```bash
+me : [(3:11)]  
+i : [(1:1)]  
+good : [(2:14)]  
+is : [(2:4)]  
+it : [(2:1)]  
+really : [(2:7)]  
+java : [(1:8), (3:1)]  
+hate : [(1:3), (1:13), (1:18), (3:6)]  
+```
